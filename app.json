@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "umbrella",
+    "name": "Umbrella",
     "slug": "umbrella",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,22 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "dev.shahnewaz.umbrella",
+      "buildNumber": "1.0.0"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "dev.shahnewaz.umbrella",
+      "versionCode": 1
     },
-    "web": {
-      "favicon": "./assets/favicon.png"
+    "extra": {
+      "eas": {
+        "projectId": "06eda416-6857-4db5-ba2a-2594c10e5a3b"
+      }
     }
   }
 }
